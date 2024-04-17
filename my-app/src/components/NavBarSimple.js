@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react'
 import css from './css/NavBarSimple.module.css'
 
 class NavBarSimple extends React.Component {
@@ -33,3 +33,5 @@ class NavBarSimple extends React.Component {
 }
 
 export default NavBarSimple;
+
+
