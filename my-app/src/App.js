@@ -4,15 +4,20 @@ import NavBarSimple from './components/NavBarSimple.js'
 import NavBarForm from './components/NavBarForm.js';
 import RenderingLists from './components/RenderingLists.js';
 import Content from './components/Content.js'
+import LifeCyclesCDM from './components/LifeCyclesCDM.js';
+import LifeCyclesCDU from './components/LifeCycleCDU.js';
+import LifeCyclesCWU from './components/LifeCyclesCWU.js';
 
 function App() {
   return (
     <div className={css.App}>
-      {/*<NavBarSimple />*/}
+      <NavBarSimple />
       <NavBarForm />
+      <Sidebar />
       {/*<RenderingLists />*/}
       <Content />
       {/* Add your components here */}
+      {/*<LifeCyclesCWU />*/}
     </div>
   );
 }

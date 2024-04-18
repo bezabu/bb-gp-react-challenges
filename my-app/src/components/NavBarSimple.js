@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
-import css from './css/NavBarSimple.module.css'
+import React, { Component } from "react";
+import css from "./css/NavBarSimple.module.css";
 
-class NavBarSimple extends React.Component {
+class NavBarSimple extends Component {
 
     constructor(props) {
         super(props);
+        
         this.state = {
-            message: 'Hello, guest!',
-            buttonText: 'Log In'
-        };
+            message: "Hello, guest!",
+            buttonText: "Log in"
+        }
     }
 
     handleclick = () => {
@@ -21,17 +22,15 @@ class NavBarSimple extends React.Component {
 
     render() {
         return (
-            <div className = "css.NavBar">
+            <div className={css.NavBar}>
                 <h1>My Gallery</h1>
                 <div>
-                <span>{this.state.message}</span>
-                <button onClick={() => this.handleclick()}>{this.state.buttonText}</button>
+                    <span>{this.state.message}</span>
+                    <button onClick={() => this.handleclick()}>{this.state.buttonText}</button>
                 </div>
             </div>
         )
     }
 }
 
-export default NavBarSimple;
-
-
+export default NavBarSimple
