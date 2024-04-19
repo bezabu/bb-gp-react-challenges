@@ -7,17 +7,17 @@ import Content from './components/Content.js'
 import LifeCyclesCDM from './components/LifeCyclesCDM.js';
 import LifeCyclesCDU from './components/LifeCycleCDU.js';
 import LifeCyclesCWU from './components/LifeCyclesCWU.js';
+import SearchBar from './components/SearchBar.js';
 
 function App() {
   return (
     <div className={css.App}>
-      <NavBarSimple />
+     {/*<NavBarSimple />*/}
       <NavBarForm />
       <Sidebar />
-      {/*<RenderingLists />*/}
       <Content />
       {/* Add your components here */}
-      {/*<LifeCyclesCWU />*/}
+      {/*<SearchBar />*/}
     </div>
   );
 }
