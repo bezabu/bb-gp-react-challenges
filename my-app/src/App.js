@@ -8,6 +8,9 @@ import LifeCyclesCDM from './components/LifeCyclesCDM.js';
 import LifeCyclesCDU from './components/LifeCycleCDU.js';
 import LifeCyclesCWU from './components/LifeCyclesCWU.js';
 import SearchBar from './components/SearchBar.js';
+import ControlledFormHooks from './components/ControlledFormHooks.js';
+import UseStateWithObjects from './components/UseStateWithObjects.js';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer.js';
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
       <Content />
       {/* Add your components here */}
       {/*<SearchBar />*/}
+
+
     </div>
   );
 }
