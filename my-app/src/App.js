@@ -11,17 +11,22 @@ import SearchBar from './components/SearchBar.js';
 import ControlledFormHooks from './components/ControlledFormHooks.js';
 import UseStateWithObjects from './components/UseStateWithObjects.js';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer.js';
+import HTTPPost from './components/HTTPPost.js';
+
 
 function App() {
   return (
     <div className={css.App}>
+      
      {/*<NavBarSimple />*/}
+     {/*
       <NavBarForm />
       <Sidebar />
       <Content />
+      */}
       {/* Add your components here */}
       {/*<SearchBar />*/}
-
+      <HTTPPost />
 
     </div>
   );
