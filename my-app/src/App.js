@@ -12,6 +12,7 @@ import ControlledFormHooks from './components/ControlledFormHooks.js';
 import UseStateWithObjects from './components/UseStateWithObjects.js';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer.js';
 import HTTPPost from './components/HTTPPost.js';
+import HTTPHooks from './components/HTTPHooks.js';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       */}
       {/* Add your components here */}
       {/*<SearchBar />*/}
-      <HTTPPost />
+      <HTTPHooks />
 
     </div>
   );
