@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar.js';
 import NavBarSimple from './components/NavBarSimple.js'
 import NavBarForm from './components/NavBarForm.js';
 import RenderingLists from './components/RenderingLists.js';
-import Content from './components/Content.js'
+import ContentAPI from './components/ContentAPI.js'
 import LifeCyclesCDM from './components/LifeCyclesCDM.js';
 import LifeCyclesCDU from './components/LifeCycleCDU.js';
 import LifeCyclesCWU from './components/LifeCyclesCWU.js';
@@ -20,14 +20,14 @@ function App() {
     <div className={css.App}>
       
      {/*<NavBarSimple />*/}
-     {/*
+     
       <NavBarForm />
       <Sidebar />
-      <Content />
-      */}
+      <ContentAPI />
+      
       {/* Add your components here */}
       {/*<SearchBar />*/}
-      <HTTPHooks />
+      
 
     </div>
   );
