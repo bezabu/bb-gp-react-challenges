@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar.js';
 import NavBarSimple from './components/NavBarSimple.js'
 import NavBarForm from './components/NavBarForm.js';
 import RenderingLists from './components/RenderingLists.js';
-import ContentAPI from './components/ContentAPI.js'
+import ContentAPIHooks from './components/ContentAPIHooks.js'
 import LifeCyclesCDM from './components/LifeCyclesCDM.js';
 import LifeCyclesCDU from './components/LifeCycleCDU.js';
 import LifeCyclesCWU from './components/LifeCyclesCWU.js';
@@ -23,7 +23,7 @@ function App() {
      
       <NavBarForm />
       <Sidebar />
-      <ContentAPI />
+      <ContentAPIHooks />
       
       {/* Add your components here */}
       {/*<SearchBar />*/}
